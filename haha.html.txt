@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ma première page Web</title>
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+    body{
+	margin: 0;
+  	font-family: Arial;
+  	font-size: 17px;
+	background-color: black;
+        background-image: src="Black_hole.gif";
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-attachment: fixed;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 50%;
+  min-height: 50%;
+}
+ 
+
+</style>
+
+<video autoplay muted loop  id="myVideo">
+  <source src="Patrick.mp4" type="video/mp4">
+</video>
+
+<audio controls>
+    <source src="moon.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+</audio>
+<img src="" alt="" width="" height="">
+
+<body>
+	<p style="color:white; font-size:300%"> <a href="http://yasmina.emi.ac.ma/~ykarmouni/Pong.html">Pong</a> </p>
+	<p style="color:white; font-size:300%"> <a href="http://yasmina.emi.ac.ma/~ykarmouni/Gun.html">Gun </a> </p>
+	<p style="color:white; font-size:300%"> <a href="http://yasmina.emi.ac.ma/~ykarmouni/Black_hole.gif">Black hole </a> </p>
+	<p style="color:white; font-size:300%"> <a href="http://yasmina.emi.ac.ma/~ykarmouni/snake.html">Snake</a> </p>
+</body>
+</html>
